@@ -1,0 +1,36 @@
+{
+  "name": "@haseebmernstack/react-axios-helper",
+  "version": "1.0.0",
+  "description": "A simple React + Axios hook to simplify API requests in Vite or React apps.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "axios",
+    "hooks",
+    "api",
+    "vite",
+    "mern"
+  ],
+  "author": "Haseeb MernStack <seebpubg@gmail.com>",
+  "license": "MIT",
+  "type": "commonjs",
+  "peerDependencies": {
+    "axios": ">=1",
+    "react": ">=17"
+  },
+  "dependencies": {
+    "axios": ">=1",
+    "react": ">=17"
+  },
+  "devDependencies": {
+    "@types/node": "^24.8.1",
+    "@types/react": "^19.2.2",
+    "typescript": "^5.9.3"
+  }
+}
