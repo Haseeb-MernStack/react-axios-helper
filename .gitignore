@@ -1,6 +1,58 @@
-node_modules
-dist
+# ========================
+# 🚀 Production-Ready .gitignore for Vite + React + TypeScript + NPM Package
+# ========================
+
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment variables
 .env
-.vscode
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS-specific files
 .DS_Store
-npm-debug.log
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Temporary files
+*.tmp
+*.log
+*.cache
+
+# Local test coverage
+coverage/
+.nyc_output/
+
+# Optional: lock files (if you want reproducible installs, remove this)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Optional: Example files or drafts
+examples/
+drafts/
+
+# ========================
+# ✅ End of File
+# ========================
